@@ -51,7 +51,7 @@ BLEByteCharacteristic switchCharacteristic("19B10001-E8F2-537E-4F6C-D104768A1214
 
 void setup()
 {
-    Serial.begin(115200);
+    Serial.begin(38400);
     Serial.println("Hello World!");
 
     // custom services and characteristics can be added as well

@@ -56,7 +56,7 @@ uint8_t current_state = 0;
 uint8_t rgb_values[3];
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(38400);
   Serial.println("Hello World!");
   // custom services and characteristics can be added as well
   BLESerial.setLocalName("UART_HS");
